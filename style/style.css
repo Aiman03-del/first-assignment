@@ -58,7 +58,11 @@
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
-
+.hero button:hover {
+  border: 3px solid rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  background-color: rgb(255, 255, 255);
+}
 /* section styles */
 .section-title {
   color: rgb(13, 19, 33);
@@ -128,6 +132,10 @@
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
 }
+.about-me button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(13, 19, 33);
+}
 .about-me img {
   width: 278px;
 }
@@ -146,13 +154,15 @@
 .target {
   margin: 183px auto;
   text-align: center;
+  padding: 0 100px;
 }
 .skills {
-  margin: 90px auto;
+  margin: 90px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   text-align: left;
+  gap: 50px;
 }
 .skill {
   padding: 40px;
@@ -182,21 +192,22 @@
 }
 .skill-html {
   border-radius: 16px;
-  background: rgba(255, 76, 30, 0.05);
+  background: rgba(255, 76, 30, 0.5);
 }
 .skill-css {
   border-radius: 16px;
 
-  background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 76, 232, 0.5);
 }
 .skill-js {
   border-radius: 16px;
-  background: rgba(255, 223, 0, 0.05);
+  background: rgba(255, 223, 0, 0.5);
 }
 
 /* next target section styles */
 .next-target {
   margin: 111px auto;
+  padding: 0 100px;
   text-align: center;
 }
 .target-skills {
@@ -243,7 +254,7 @@
       rgb(7, 2, 17),
       rgba(7, 2, 17, 0) 100%
     ),
-    url(assets/handshake.jpg);
+    url(/assets/handshake.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -279,13 +290,13 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 20px;
 }
 footer p {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
-  letter-spacing: 0%;
 }
 .social-icons {
   display: flex;
