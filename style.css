@@ -72,3 +72,52 @@
   line-height: 26px;
   opacity: 0.7;
 }
+/* about section styles */
+.about {
+  margin: 120px auto;
+  text-align: center;
+}
+.about-content {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.about-me {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 50px;
+  /* border: 1px solid black; */
+  border-radius: 16px;
+  gap: 100px;
+}
+.about-me h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.about-me p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  opacity: 0.7;
+}
+.about-me button {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.about-me img {
+  width: 278px;
+}
