@@ -35,6 +35,7 @@
 }
 /* hero section styles */
 .hero {
+  /* margin: auto; */
   padding: 26px 221px;
   text-align: center;
   background-image: url(assets/Hero-bg.png);
@@ -46,6 +47,7 @@
   width: 230px;
 }
 .hero button {
+  cursor: pointer;
   margin: 32px auto;
   color: rgb(255, 255, 255);
   font-size: 21px;
@@ -77,12 +79,14 @@
 .about {
   margin: 120px auto;
   text-align: center;
+  padding: 0px 20px;
 }
 .about-content {
   margin: 50px auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
   gap: 80px;
 }
 .about-me {
@@ -92,7 +96,6 @@
   justify-content: space-between;
   text-align: left;
   padding: 50px;
-  /* border: 1px solid black; */
   border-radius: 16px;
   gap: 100px;
 
@@ -110,12 +113,12 @@
 }
 .about-me p {
   color: rgb(13, 19, 33);
-  font-size: 16px;
-
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 30px;
   opacity: 0.7;
 }
 .about-me button {
+  cursor: pointer;
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
@@ -128,9 +131,10 @@
 .about-me img {
   width: 278px;
 }
-
+/* inspiration */
 .inspiration {
   text-align: center;
+  padding: 0 40px;
 }
 .inspiration iframe {
   width: 1400px;
@@ -161,16 +165,20 @@
   font-size: 30px;
   font-weight: 800;
   line-height: 55px;
-
   text-align: left;
 }
 .skill p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 18px;
   line-height: 30px;
   text-align: left;
   opacity: 0.7;
+}
+.skill a {
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
 }
 .skill-html {
   border-radius: 16px;
@@ -183,9 +191,10 @@
 }
 .skill-js {
   border-radius: 16px;
-
   background: rgba(255, 223, 0, 0.05);
 }
+
+/* next target section styles */
 .next-target {
   margin: 111px auto;
   text-align: center;
@@ -214,9 +223,7 @@
 .target-skills p {
   color: rgb(13, 19, 33);
   font-size: 20px;
-
   line-height: 26px;
-
   opacity: 0.7;
 }
 .target-skills a {
@@ -260,8 +267,28 @@
   outline: none;
 }
 .submission button {
+  cursor: pointer;
   border: none;
   font-size: 20px;
   padding: 20px 52px;
   border-radius: 8px;
+}
+footer {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
