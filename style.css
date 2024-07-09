@@ -21,7 +21,7 @@
   font-size: 28px;
   font-weight: 800;
   line-height: 33px;
-  letter-spacing: 0%;
+
   text-align: left;
 }
 .nav ul a {
@@ -35,7 +35,6 @@
 }
 /* hero section styles */
 .hero {
-  max-width: 1500px;
   padding: 26px 221px;
   text-align: center;
   background-image: url(assets/Hero-bg.png);
@@ -69,7 +68,7 @@
 .section-description {
   color: rgb(13, 19, 33);
   font-size: 22px;
-  font-weight: 400;
+
   line-height: 40px;
   opacity: 0.7;
 }
@@ -112,7 +111,7 @@
 .about-me p {
   color: rgb(13, 19, 33);
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 50px;
   opacity: 0.7;
 }
@@ -162,7 +161,7 @@
   font-size: 30px;
   font-weight: 800;
   line-height: 55px;
-  letter-spacing: 0%;
+
   text-align: left;
 }
 .skill p {
@@ -186,4 +185,83 @@
   border-radius: 16px;
 
   background: rgba(255, 223, 0, 0.05);
+}
+.next-target {
+  margin: 111px auto;
+  text-align: center;
+}
+.target-skills {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  gap: 130px;
+  padding: 60px 85px;
+}
+.target-skills img {
+  width: 100px;
+}
+.target-skills h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.target-skills p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+
+  line-height: 26px;
+
+  opacity: 0.7;
+}
+.target-skills a {
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+}
+/* feedback section styles */
+.feedback {
+  color: rgb(255, 255, 255);
+  margin: 50px auto;
+  padding: 150px 130px;
+  text-align: center;
+  background-image: linear-gradient(
+      360deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feedback-title {
+  color: rgb(255, 255, 255);
+}
+.feedback-description {
+  color: rgb(255, 255, 255);
+}
+.submission {
+  margin: 40px;
+}
+.submission input {
+  width: 548px;
+  padding: 21px 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  outline: none;
+}
+.submission button {
+  border: none;
+  font-size: 20px;
+  padding: 20px 52px;
+  border-radius: 8px;
 }
