@@ -145,9 +145,10 @@
   padding: 0 40px;
 }
 .inspiration iframe {
-  width: 1050px;
+  max-width: 1050px;
+  width: 100%;
   height: 600px;
-  margin: 50px 50px;
+  margin: 50px auto;
 }
 
 /* target section styles  */
@@ -268,9 +269,11 @@
 }
 .submission {
   margin: 40px;
+  display: flex;
+  gap: 10px;
 }
 .submission input {
-  width: 548px;
+  width: 100%;
   padding: 21px 20px;
   font-size: 18px;
   box-sizing: border-box;
