@@ -151,7 +151,12 @@
   height: 600px;
   margin: 50px auto;
 }
-
+.video {
+  margin: 50px;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
 /* target section styles  */
 .target {
   margin: 183px auto;
