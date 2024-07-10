@@ -121,6 +121,7 @@
   opacity: 0.7;
 }
 .about-me button {
+  margin: 20px auto;
   cursor: pointer;
   color: rgb(13, 19, 33);
   font-size: 20px;
@@ -248,7 +249,7 @@
 .feedback {
   color: rgb(255, 255, 255);
   margin: 50px;
-  padding: 150px 130px;
+  padding: 100px 130px;
   border-radius: 50px;
   text-align: center;
   background-image: linear-gradient(
