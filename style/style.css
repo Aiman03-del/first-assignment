@@ -11,6 +11,7 @@
 }
 /* nav styles */
 .nav ul {
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,7 +22,6 @@
   font-size: 28px;
   font-weight: 800;
   line-height: 33px;
-
   text-align: left;
 }
 .nav ul a {
@@ -33,12 +33,12 @@
   padding: 17px 24px;
   opacity: 0.8;
 }
+
 /* hero section styles */
 .hero {
-  /* margin: auto; */
   padding: 26px 221px;
   text-align: center;
-  background-image: url(assets/Hero-bg.png);
+  background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -91,11 +91,10 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  gap: 80px;
 }
 .about-me {
   display: flex;
-  margin: 0 auto;
+  margin: 50px;
   align-items: center;
   justify-content: space-between;
   text-align: left;
@@ -141,13 +140,14 @@
 }
 /* inspiration */
 .inspiration {
+  margin: 50px;
   text-align: center;
   padding: 0 40px;
 }
 .inspiration iframe {
-  width: 1400px;
+  width: 1050px;
   height: 600px;
-  margin: 50px auto;
+  margin: 50px 50px;
 }
 
 /* target section styles  */
@@ -211,7 +211,7 @@
   text-align: center;
 }
 .target-skills {
-  margin: 50px auto;
+  margin: 50px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -246,8 +246,9 @@
 /* feedback section styles */
 .feedback {
   color: rgb(255, 255, 255);
-  margin: 50px auto;
+  margin: 50px;
   padding: 150px 130px;
+  border-radius: 50px;
   text-align: center;
   background-image: linear-gradient(
       360deg,
@@ -285,7 +286,7 @@
   border-radius: 8px;
 }
 footer {
-  margin: 0 10px;
+  margin: auto 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
